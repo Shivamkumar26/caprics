@@ -1,0 +1,157 @@
+
+
+  /* Base styles for larger screens */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    padding: 80px;
+    width: 40%;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .logo-image {
+    display: flex;
+    margin: 0 auto;
+    width: 436px;
+    height: 76px;
+  }
+  
+  .login-header {
+    font-weight: bold;
+    text-align: center;
+    color: var(--2D2D45, #2D2D45);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 130% */
+    letter-spacing: 0.1px;
+  }
+
+  .text-header {
+    width: 120%;
+    text-align: center;
+    /* padding: 0 50px; */
+    color: var(--2D2D45, #2D2D45);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.1px;
+  }
+
+  .text-header {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+  }
+  
+  .form-pswd {
+    width: 360px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(8, 14, 18, 0.10);
+    background: #F8FAFA;
+    margin: 10px auto; /* Center the input fields horizontally */
+  }
+  
+  .input-field {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    background: #F8FAFA;
+    outline: none;
+    padding-left: 10px;
+  }
+  
+  .input-field-2 {
+    width: 85%;
+    border-radius: 3px;
+    border: none;
+    background: #F8FAFA;
+    outline: none;
+    /* margin: 10px auto; Center the password input field horizontally */
+  }
+  
+  .forgot-password-link {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center "Forgot Password" link both horizontally and vertically */
+    text-decoration: none;
+    margin: 15px auto; /* Center the link horizontally and provide vertical spacing */
+  }
+  .login-password-link {
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center "Forgot Password" link both horizontally and vertically */
+        text-decoration: none;
+        margin: 15px auto; 
+  }
+  .captcha-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the ReCAPTCHA horizontally and vertically */
+    margin: 20px auto; /* Center the ReCAPTCHA and provide vertical spacing */
+  }
+  
+  .captcha-checkbox label {
+    margin-left: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(8, 14, 18, 0.10);
+    background: #F8FAFA;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    width: 380px;
+    border-radius: 8px;
+    color: white;
+    background: #161F6A;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 16px;
+    cursor: pointer;
+    margin: 10px auto;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .right-image {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    width: 905px;
+    height: 780px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .login-form {
+      width: 80%; /* Adjust the width for smaller screens */
+    }
+  
+    .input-field {
+      width: 100%; /* Make input fields full-width on smaller screens */
+    }
+  
+    .forgot-password-link {
+      justify-content: center; /* Center the "Forgot password" link on smaller screens */
+    }
+  
+    .right-image {
+      display: none; /* Hide the right image on smaller screens */
+    }
+  }
+  
